@@ -22,4 +22,9 @@ Route::get('/about', function () {
 Route::get('/report', function () {
     return "This is Report Page";
 });
+Route::get('/contact', function () {
+    return "This is Contact Page";
+});
+
+
 
