@@ -27,4 +27,4 @@ Route::get('/contact', function () {
 });
 
 
-
+Route::resource('reports', App\Http\Controllers\ReportController::class);
